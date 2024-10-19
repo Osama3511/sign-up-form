@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="side-div">
+
+        <div class="logo-div">
+            <img src="images/odin-lined.png" 
+                    alt="logo" 
+                    width="80px" 
+                    height="100px">
+            <h1 id="logo-font">odin</h1>
+        </div>
+
+        <div class="link-div">
+            Photo by <a href="https://unsplash.com/@jonathansancheziam?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jonathan Sanchez</a> on 
+            <a href="https://unsplash.com/photos/a-man-standing-on-top-of-a-mountain-holding-a-surfboard-lRF1soyiFFA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+        </div>
+    </div>
+
+    <section class="container">
+        <div class="content">
+            <p>
+                <strong>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore
+                </strong>
+            </p>
+            <p><strong>lorem ipsum dolor sit</strong></p>
+        </div>
+        <section class="form-section">
+            
+            <form action="#" method="get">
+                <h1 id="form-header">Let's do this!</h1>
+                <section class="form-row-section">
+                        <fieldset class="form-left-row">
+                            <div class="form-row">
+                                <div>
+                                    <label for="first-name">FIRST NAME</label>
+                                </div>
+                                <input type="text"
+                                        id="first-name"
+                                        pattern="^[A-Za-z]$"
+                                        placeholder="Jale.."
+                                        maxlength="20"
+                                        required>
+                            </div>
+                            <div class="form-row">
+                                <div>
+                                    <label for="email">EMAIL</label>
+                                </div>
+                                <input type="email"
+                                        id="email"
+                                        placeholder="jale@example.com"
+                                        required>
+                            </div>
+                            <div class="form-row">
+                                <div>
+                                    <label for="password">PASSWORD</label>
+                                </div>
+                                <input type="password"
+                                        id="password"
+                                        placeholder="12-16 characters"
+                                        minlength="12"
+                                        maxlength="16"
+                                        required>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="form-right-row">
+                            <div class="form-row">
+                                <div>
+                                    <label for="last-name">LAST NAME</label>
+                                </div>
+
+                                <input type="text"
+                                        id="last-name"
+                                        placeholder="bektas"
+                                        pattern="^[A-Za-z]$"
+                                        maxlength="30"
+                                        required>
+                            </div>
+                            <div class="form-row">
+                                <div>
+                                    <label for="phone-number">PHONE NUMBER</label>
+                                </div>
+
+                                <input type="tel"
+                                        id="phone-number"
+                                        maxlength="12"
+                                        minlength="11"
+                                        pattern="[0-9]{11,12}"
+                                        placeholder="Enter a phone number"
+                                        required>
+                            </div>
+                            <div class="form-row">
+                                <div>
+                                    <label for="confirm-password">CONFRIM PASSWORD</label>
+                                </div>
+
+                                <input type="password"
+                                        id="confirm-password"
+                                        minlength="12"
+                                        maxlength="16"
+                                        required>
+                            </div>
+                        </fieldset>
+                    </section>
+                    <div class="buttons-container">
+                        <div>
+                            <button type="submit" class="submit-button">Sign up</button>
+                        </div>
+                        <div>
+                            Already have an account? <a href="">log in</a>
+                        </div>
+                    </div>
+            </form>
+        </section>
+    </section>
+
+</body>
+</html>
